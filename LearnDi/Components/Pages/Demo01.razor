@@ -1,0 +1,37 @@
+﻿@page "/demo01"
+
+@inject ContactService CS
+
+<h3>Demo01</h3>
+
+<input placeholder="Firstname" @bind="firstName" />
+<input placeholder="Lastname" @bind="lastName" />
+<input placeholder="Email" @bind="email" />
+<button type="button" @onclick="AddContact">Submit</button>
+
+@if (CS.ContactList.Count() == 0)
+{
+    <b>No Contacts to display</b>
+}
+else
+{
+    <div>
+        @foreach (var e in CS.ContactList)
+        {
+            <p>@e.FirstName</p>
+            <p>@e.LastName</p>
+        }
+    </div>
+}
+
+@code {
+    private string? firstName { get; set; }
+    private string? lastName { get; set; }
+    private string? email { get; set; }
+    private void AddContact()
+    {
+        var contact = new Contact() { FirstName = firstName, LastName = lastName, Email = email };
+        CS.AddContact(contact);
+    }
+
+}
