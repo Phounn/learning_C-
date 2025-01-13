@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApi.Filters;
+using WebApi.Filters.ActionFilter;
+using WebApi.Filters.ExceptionFilter;
 using WebApi.Models;
 using WebApi.Models.Repositories;
 
@@ -30,19 +32,32 @@ namespace WebApi.Controller
 
         }
         [HttpPost]
-        public string CreateShirt([FromBody] Shirt shirt) //as same as fromform, but fromform must use postman in body, u must choose form-data
+        [Shirt_ValidateCreateShirtFilter]
+        public IActionResult CreateShirt([FromBody] Shirt shirt) //as same as fromform, but fromform must use postman in body, u must choose form-data
         {
-            return "Creating A Shirt";
+            //if (shirt == null) return BadRequest();
+            //var existingShirt = ShirtRepository.GetShirtByProperties(shirt.Brand, shirt.Gender, shirt.Color, shirt.Size);
+            //if (existingShirt != null) return BadRequest();
+            ShirtRepository.AddShirt(shirt);
+
+            return CreatedAtAction(nameof(GetShirtById), new { id = shirt.ShirtId }, shirt);
         }
         [HttpPut("{id}")]
-        public string UpdateShirt(int id)
+        [Shirt_ValidateShirtIdFilter]
+        [Shirt_ValidateUpdateShirtFilter]
+        [Shirt_HandleUpdateExceptionsFilter]
+        public IActionResult UpdateShirt(int id, Shirt shirt)
         {
-            return $"Updating The Shirt With ID: {id}";
+            ShirtRepository.UpdateShirt(shirt);
+            return NoContent();
         }
         [HttpDelete("{id}")]
-        public string DeleteShirt(int id)
+        [Shirt_ValidateShirtIdFilter]
+        public IActionResult DeleteShirt(int id)
         {
-            return $"Deleting The Shirt With ID: {id}";
+            var shirt = ShirtRepository.GetShirtById(id);
+            ShirtRepository.DeleteShirt(id);
+            return Ok(shirt);
         }
 
 

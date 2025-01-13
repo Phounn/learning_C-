@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using WebApi.Models.Repositories;
 
-namespace WebApi.Filters
+namespace WebApi.Filters.ActionFilter
 {
-    public class Shirt_ValidateShirtIdFilterAttribute: ActionFilterAttribute
+    public class Shirt_ValidateShirtIdFilterAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext context)
         {
@@ -37,4 +37,4 @@ namespace WebApi.Filters
             }
         }
     }
-}   
+}
