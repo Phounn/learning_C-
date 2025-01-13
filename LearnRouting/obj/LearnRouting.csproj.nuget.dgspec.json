@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnRouting\\LearnRouting.csproj": {}
+    "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnRouting\\LearnRouting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnRouting\\LearnRouting.csproj": {
+    "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnRouting\\LearnRouting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnRouting\\LearnRouting.csproj",
+        "projectUniqueName": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnRouting\\LearnRouting.csproj",
         "projectName": "LearnRouting",
-        "projectPath": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnRouting\\LearnRouting.csproj",
-        "packagesPath": "C:\\Users\\NITRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnRouting\\obj\\",
+        "projectPath": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnRouting\\LearnRouting.csproj",
+        "packagesPath": "C:\\Users\\bsant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnRouting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\NITRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
