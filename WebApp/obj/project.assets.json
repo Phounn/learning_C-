@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\NITRO\\.nuget\\packages\\": {},
+    "C:\\Users\\bsant\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\WebApp\\WebApp.csproj",
-      "packagesPath": "C:\\Users\\NITRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\WebApp\\obj\\",
+      "projectPath": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\WebApp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\bsant\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\NITRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

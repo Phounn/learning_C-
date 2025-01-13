@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnMiddleware\\LearnMiddleware.csproj": {}
+    "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnMiddleware\\LearnMiddleware.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnMiddleware\\LearnMiddleware.csproj": {
+    "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnMiddleware\\LearnMiddleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnMiddleware\\LearnMiddleware.csproj",
+        "projectUniqueName": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnMiddleware\\LearnMiddleware.csproj",
         "projectName": "LearnMiddleware",
-        "projectPath": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnMiddleware\\LearnMiddleware.csproj",
-        "packagesPath": "C:\\Users\\NITRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NITRO\\source\\repos\\MyFirstApp\\LearnMiddleware\\obj\\",
+        "projectPath": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnMiddleware\\LearnMiddleware.csproj",
+        "packagesPath": "C:\\Users\\bsant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bsant\\Source\\Repos\\learning_C-\\LearnMiddleware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\NITRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
