@@ -27,3 +27,4 @@ C:\Users\NITRO\source\repos\MyFirstApp\WebApi\obj\Debug\net9.0\refint\WebApi.dll
 C:\Users\NITRO\source\repos\MyFirstApp\WebApi\obj\Debug\net9.0\WebApi.pdb
 C:\Users\NITRO\source\repos\MyFirstApp\WebApi\obj\Debug\net9.0\WebApi.genruntimeconfig.cache
 C:\Users\NITRO\source\repos\MyFirstApp\WebApi\obj\Debug\net9.0\ref\WebApi.dll
+C:\Users\NITRO\source\repos\MyFirstApp\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json

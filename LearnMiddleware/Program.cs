@@ -43,15 +43,15 @@ app.UseWhen((context) =>
     {
         appBuilder.Use(async (HttpContext context, RequestDelegate next) =>
         {
-            await context.Response.WriteAsync("middleware 5 before calling\r\n");
+            await context.Response.WriteAsync("middleware 5 from usewhen before calling\r\n");
             await next(context);
-            await context.Response.WriteAsync("middleware 5 after calling\r\n");
+            await context.Response.WriteAsync("middleware 5 from usewhen  after calling\r\n");
         });
         appBuilder.Use(async (HttpContext context, RequestDelegate next) =>
         {
-            await context.Response.WriteAsync("middleware 6 before calling\r\n");
+            await context.Response.WriteAsync("middleware 6 from usewhen before calling\r\n");
             await next(context);
-            await context.Response.WriteAsync("middleware 6 after calling\r\n");
+            await context.Response.WriteAsync("middleware 6 from usewhen after calling\r\n");
         });
     });// the middleware is worked when it directs to the path by branch but it will rejoin to main branch
 
@@ -63,15 +63,15 @@ app.MapWhen((context) =>
 {
     appBuilder.Use(async (HttpContext context, RequestDelegate next) =>
     {
-        await context.Response.WriteAsync("middleware 5 before calling");
+        await context.Response.WriteAsync("middleware 5 from mapwhen before calling");
         await next(context);
-        await context.Response.WriteAsync("middleware 5 after calling");
+        await context.Response.WriteAsync("middleware 5 from mapwhen after calling");
     });
     appBuilder.Use(async (HttpContext context, RequestDelegate next) =>
     {
-        await context.Response.WriteAsync("middleware 6 before calling");
+        await context.Response.WriteAsync("middleware 6 from mapwhen before calling");
         await next(context);
-        await context.Response.WriteAsync("middleware 6 after calling");
+        await context.Response.WriteAsync("middleware 6 from mapwhen after calling");
     });
 });// the middleware is worked when it directs to the path by branch
 

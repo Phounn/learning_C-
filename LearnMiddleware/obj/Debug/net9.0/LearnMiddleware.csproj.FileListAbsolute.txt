@@ -27,3 +27,4 @@ C:\Users\NITRO\source\repos\MyFirstApp\LearnMiddleware\obj\Debug\net9.0\refint\L
 C:\Users\NITRO\source\repos\MyFirstApp\LearnMiddleware\obj\Debug\net9.0\LearnMiddleware.pdb
 C:\Users\NITRO\source\repos\MyFirstApp\LearnMiddleware\obj\Debug\net9.0\LearnMiddleware.genruntimeconfig.cache
 C:\Users\NITRO\source\repos\MyFirstApp\LearnMiddleware\obj\Debug\net9.0\ref\LearnMiddleware.dll
+C:\Users\NITRO\source\repos\MyFirstApp\LearnMiddleware\obj\Debug\net9.0\LearnMiddleware.sourcelink.json
