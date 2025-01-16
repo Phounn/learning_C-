@@ -78,3 +78,4 @@ C:\Users\NITRO\source\repos\MyFirstApp\LearnDi\obj\Debug\net9.0\refint\LearnDi.d
 C:\Users\NITRO\source\repos\MyFirstApp\LearnDi\obj\Debug\net9.0\LearnDi.pdb
 C:\Users\NITRO\source\repos\MyFirstApp\LearnDi\obj\Debug\net9.0\LearnDi.genruntimeconfig.cache
 C:\Users\NITRO\source\repos\MyFirstApp\LearnDi\obj\Debug\net9.0\ref\LearnDi.dll
+C:\Users\NITRO\source\repos\MyFirstApp\LearnDi\obj\Debug\net9.0\LearnDi.sourcelink.json

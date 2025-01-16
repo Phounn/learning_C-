@@ -27,3 +27,4 @@ C:\Users\NITRO\source\repos\MyFirstApp\LearnRouting\obj\Debug\net9.0\refint\Lear
 C:\Users\NITRO\source\repos\MyFirstApp\LearnRouting\obj\Debug\net9.0\LearnRouting.pdb
 C:\Users\NITRO\source\repos\MyFirstApp\LearnRouting\obj\Debug\net9.0\LearnRouting.genruntimeconfig.cache
 C:\Users\NITRO\source\repos\MyFirstApp\LearnRouting\obj\Debug\net9.0\ref\LearnRouting.dll
+C:\Users\NITRO\source\repos\MyFirstApp\LearnRouting\obj\Debug\net9.0\LearnRouting.sourcelink.json

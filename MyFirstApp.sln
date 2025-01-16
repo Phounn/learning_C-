@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnDi", "LearnDi\LearnDi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{B2FE85A1-C843-4219-A118-AF529205D063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_2", "WebApi_2\WebApi_2.csproj", "{F7530B56-6341-4EF0-B3CF-C99609FDF7B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B2FE85A1-C843-4219-A118-AF529205D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2FE85A1-C843-4219-A118-AF529205D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2FE85A1-C843-4219-A118-AF529205D063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7530B56-6341-4EF0-B3CF-C99609FDF7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7530B56-6341-4EF0-B3CF-C99609FDF7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7530B56-6341-4EF0-B3CF-C99609FDF7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7530B56-6341-4EF0-B3CF-C99609FDF7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

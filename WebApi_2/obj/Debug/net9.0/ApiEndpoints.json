@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "WebApi_2.Controllers.EmployeeController",
+    "Method": "GetAllEmps",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
